@@ -1,0 +1,214 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    text-align: center;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: linear-gradient(to right, #222, #333);
+    color: white;
+}
+
+.dark-mode nav {
+    background-color: #111;
+}
+
+.dark-mode .btn {
+    background: #0077b5;
+}
+
+.dark-mode .contact-btn {
+    background: #28a745;
+}
+
+.dark-mode a {
+    color: #1DA1F2;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    cursor: pointer;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+/* Sections */
+section {
+    padding: 80px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Contact Section */
+#contact-details {
+    display: none;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #005a8c;
+}
+
+.contact-btn {
+    background: #28a745;
+}
+
+.contact-btn:hover {
+    background: #218838;
+}
+
+/* Project Section */
+.projects {
+    text-align: center;
+    padding: 50px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Individual Project Card */
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Project Logo */
+.project-logo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* GitHub Link Styling */
+.project-links a {
+    display: inline-block;
+    color: #0077b5;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.project-links a:hover {
+    text-decoration: underline;
+}
+
+/* Dark Mode for Projects */
+.dark-mode .project-card {
+    background: #444;
+    color: white;
+}
+
+.dark-mode .project-links a {
+    color: #1DA1F2;
+}
+
+/* Contact Page Styling */
+.contact {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Contact Items */
+.contact-item {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact Icons */
+.contact-item i {
+    font-size: 30px;
+    color: #1DA1F2;
+}
+
+.contact-item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Dark Mode Support */
+.dark-mode .contact-item {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .contact-item i {
+    color: white;
+}

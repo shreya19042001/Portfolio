@@ -1,0 +1,16 @@
+body {
+    display: block;
+    text-align: center;
+    background-image: url("https://cdn.wallpapersafari.com/5/19/aFTP5h.png");
+    background-color: #f2f2f2;
+    /* Add the link styles */
+    color: rgb(18, 28, 28);
+   
+}
+h1{
+    font-family: "Arial", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
